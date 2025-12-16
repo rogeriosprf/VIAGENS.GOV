@@ -1,0 +1,1620 @@
+RELATÓRIO DE ANÁLISE DE CSVs - GERADO EM 15/12/2025 22:42:00
+Caminho base: /home/roger/Projetos/Viagens/Tratados
+================================================================================
+
+Pasta: Pagamento
+Arquivo: 2020_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 539,566 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16378243', '16386658', '16386658']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/20', '000002/20', '000002/20']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26271', '26271', '26271']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Fundação Universidade de Brasília', 'Fundação Universidade de Brasília', 'Fundação Universidade de Brasília']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['154040', '154040', '154040']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['FUNDACAO UNIVERSIDADE DE BRASILIA - UNB', 'FUNDACAO UNIVERSIDADE DE BRASILIA - UNB', 'FUNDACAO UNIVERSIDADE DE BRASILIA - UNB']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['3432.98', '530.71', '523.18']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2025_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,054,584 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['20286869', '20286869', '20289421']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000002/25', '000002/25', '000001/25']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000.0', '26000.0', '52000.0']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Defesa']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26241.0', '26241.0', '52121.0']
+  • Nome do órgao pagador                    → NVARCHAR(108)        | Amostras: ['Universidade Federal do Paraná', 'Universidade Federal do Paraná', 'Comando do Exército']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['153079', '153079', '160086']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['UNIVERSIDADE FEDERAL DO PARANA', 'UNIVERSIDADE FEDERAL DO PARANA', 'GABINETE DO COMANDANTE DO EXERCITO']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['1271.77', '1272.97', '4329.72']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2019_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,371,429 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['15045825', '15100682', '15114708']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26291', '26291', '26291']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior', 'Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior', 'Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['154003', '154003', '154003']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['FUND.COORD.DE APERF.DE PESSOAL NIVEL SUPERIOR', 'FUND.COORD.DE APERF.DE PESSOAL NIVEL SUPERIOR', 'FUND.COORD.DE APERF.DE PESSOAL NIVEL SUPERIOR']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['3406.33', '2925.83', '2760.02']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2017_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,580,071 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['13202218', '13202218', '13202422']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26241', '26241', '26241']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Universidade Federal do Paraná', 'Universidade Federal do Paraná', 'Universidade Federal do Paraná']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['153079', '153079', '153079']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['UNIVERSIDADE FEDERAL DO PARANA', 'UNIVERSIDADE FEDERAL DO PARANA', 'UNIVERSIDADE FEDERAL DO PARANA']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['1657.08', '1236.73', '2434.5']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2021_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 705,904 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16829271', '16889781', '16889781']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000163/21', '000120/20', '000120/20']
+  • Código do órgão superior                 → INT                  | Amostras: ['36000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Ministério da Saúde', 'Ministério da Educação', 'Ministério da Educação']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['36211', '26281', '26281']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Fundação Nacional de Saúde', 'Fundação Universidade Federal de Sergipe', 'Fundação Universidade Federal de Sergipe']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['255011', '154050', '154050']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['FUNDACAO NACIONAL DE SAUDE - MT', 'FUNDACAO UNIVERSIDADE FEDERAL DE SERGIPE', 'FUNDACAO UNIVERSIDADE FEDERAL DE SERGIPE']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['223.86', '161.0', '312.64']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2023_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,378,434 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['18159396', '18159396', '18288418']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/23', '000001/23', '000007/23-1C']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '52000']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Defesa']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26271', '26271', '52121']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Fundação Universidade de Brasília', 'Fundação Universidade de Brasília', 'Comando do Exército']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['154040', '154040', '160069']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['FUNDACAO UNIVERSIDADE DE BRASILIA - UNB', 'FUNDACAO UNIVERSIDADE DE BRASILIA - UNB', 'CENTRO DE OBTENCOES DO EXERCITO']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['3947.25', '3947.25', '7434.13']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2024_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,344,995 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['18831091', '19177818', '19177818']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000011/24', '000001/24-1C', '000001/24-1C']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000.0', '26000.0', '26000.0']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26425.0', '26271.0', '26271.0']
+  • Nome do órgao pagador                    → NVARCHAR(108)        | Amostras: ['Instituto Federal de Educação, Ciência e Tecnologia do Acre', 'Fundação Universidade de Brasília', 'Fundação Universidade de Brasília']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['158156', '154040', '154040']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['INST.FED.DE EDUC.,CIENC.E TEC.DO ACRE', 'FUNDACAO UNIVERSIDADE DE BRASILIA - UNB', 'FUNDACAO UNIVERSIDADE DE BRASILIA - UNB']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['929.18', '14.37', '6877.94']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2012_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 7 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011003300', '2011003300', '2012001641']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Código do órgão superior                 → INT                  | Amostras: ['25201', '25201', '25201']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['25201', '25201', '25201']
+  • Nome do órgao pagador                    → NVARCHAR(102)        | Amostras: ['Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['173057', '173057', '173057']
+  • Nome da unidade gestora pagadora         → NVARCHAR(50)         | Amostras: ['BANCO CENTRAL DO BRASIL', 'BANCO CENTRAL DO BRASIL', 'BANCO CENTRAL DO BRASIL']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'PASSAGEM', 'DIÁRIAS']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['5645.9', '18247.43', '543.06']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2014_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 2,047,324 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['10011585', '10011585', '10011586']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Código do órgão superior                 → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgao pagador                    → NVARCHAR(108)        | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['Sigilosa', 'Sigilosa', 'Sigilosa']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'DIÁRIAS', 'DIÁRIAS']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['1556.97', '88.5', '231.6']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2011_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 5 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011000023', '2011000177', '2011000177']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Código do órgão superior                 → INT                  | Amostras: ['-1', '25201', '25201']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Sem informação', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['-3', '25201', '25201']
+  • Nome do órgao pagador                    → NVARCHAR(102)        | Amostras: ['NULL', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['-3', '173057', '173057']
+  • Nome da unidade gestora pagadora         → NVARCHAR(50)         | Amostras: ['Inválido', 'BANCO CENTRAL DO BRASIL', 'BANCO CENTRAL DO BRASIL']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'DIÁRIAS', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['406.86', '483.03', '835.87']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2018_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,641,727 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['14046485', '14046485', '14046485']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['26405', '26405', '26405']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Instituto Federal de Educação, Ciência e Tecnologia do Ceará', 'Instituto Federal de Educação, Ciência e Tecnologia do Ceará', 'Instituto Federal de Educação, Ciência e Tecnologia do Ceará']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['158133', '158133', '158133']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['INST.FED.DE EDUC.,CIENC.E TEC.DO CEARA', 'INST.FED.DE EDUC.,CIENC.E TEC.DO CEARA', 'INST.FED.DE EDUC.,CIENC.E TEC.DO CEARA']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['537.5', '54.46', '44.22']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2013_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 20 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['10033937', '10033937', '10033937']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Código do órgão superior                 → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgao pagador                    → NVARCHAR(102)        | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome da unidade gestora pagadora         → NVARCHAR(50)         | Amostras: ['Sigilosa', 'Sigilosa', 'Sigilosa']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'DIÁRIAS', 'DIÁRIAS']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['903.94', '905.7', '2485.5']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2022_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,080,775 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['17503013', '17503013', '17503013']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Código do órgão superior                 → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['Sigilosa', 'Sigilosa', 'Sigilosa']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'DIÁRIAS', 'DIÁRIAS']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['2781.7', '2125.06', '100.3']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2015_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,473,801 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['11407311', '11407311', '11407312']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Código do órgão superior                 → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgao pagador                    → NVARCHAR(108)        | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['Sigilosa', 'Sigilosa', 'Sigilosa']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'DIÁRIAS', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['340.85', '1402.8', '340.85']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2026_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 3 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['21513165', '21540831', '21540831']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000080/26', '000063/26', '000063/26']
+  • Código do órgão superior                 → INT                  | Amostras: ['52000', '68000', '68000']
+  • Nome do órgão superior                   → NVARCHAR(50)         | Amostras: ['Ministério da Defesa', 'Ministério de Portos e Aeroportos', 'Ministério de Portos e Aeroportos']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['52121', '62201', '62201']
+  • Nome do órgao pagador                    → NVARCHAR(50)         | Amostras: ['Comando do Exército', 'Agência Nacional de Aviação Civil', 'Agência Nacional de Aviação Civil']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['160086', '113214', '113214']
+  • Nome da unidade gestora pagadora         → NVARCHAR(50)         | Amostras: ['GABINETE DO COMANDANTE DO EXERCITO', 'AGENCIA NACIONAL DE AVIACAO CIVIL', 'AGENCIA NACIONAL DE AVIACAO CIVIL']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['PASSAGEM', 'PASSAGEM', 'PASSAGEM']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['5272.57', '1416.88', '1440.79']
+
+--------------------------------------------------------------------------------
+
+Pasta: Pagamento
+Arquivo: 2016_Pagamento.csv
+Encoding usado: latin-1
+Linhas: 1,524,998 | Colunas: 10
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['12463176', '12463176', '12463176']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Código do órgão superior                 → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgão superior                   → NVARCHAR(86)         | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Codigo do órgão pagador                  → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome do órgao pagador                    → NVARCHAR(105)        | Amostras: ['Sigiloso', 'Sigiloso', 'Sigiloso']
+  • Código da unidade gestora pagadora       → INT                  | Amostras: ['-11', '-11', '-11']
+  • Nome da unidade gestora pagadora         → NVARCHAR(55)         | Amostras: ['Sigilosa', 'Sigilosa', 'Sigilosa']
+  • Tipo de pagamento                        → NVARCHAR(50)         | Amostras: ['DIÁRIAS', 'DIÁRIAS', 'DIÁRIAS']
+  • Valor                                    → DECIMAL(18,4)        | Amostras: ['2468.55', '2468.55', '1385.85']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2020_Trecho.csv
+Encoding usado: latin-1
+Linhas: 682,040 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16332319', '16332319', '16378243']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000002/20-1C', '000002/20-1C', '000001/20']
+  • Sequência Trecho                         → INT                  | Amostras: ['2', '1', '2']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['04/01/2021', '05/01/2020', '12/03/2020']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['República Tcheca', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['NULL', 'São Paulo', 'Distrito Federal']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Praga', 'São Paulo', 'Brasília']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['04/01/2021', '04/01/2021', '12/03/2020']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'República Tcheca', 'México']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['São Paulo', 'NULL', 'NULL']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['São Paulo', 'Praga', 'Cidade do México']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Sim', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2021_Trecho.csv
+Encoding usado: latin-1
+Linhas: 906,058 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16829271', '16829271', '16889781']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000163/21', '000163/21', '000120/20']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['03/02/2021', '04/02/2021', '11/05/2021']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Mato Grosso', 'Mato Grosso', 'Sergipe']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Cuiabá', 'Nova Brasilândia', 'Aracaju']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['04/02/2021', '04/02/2021', '16/05/2021']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Mato Grosso', 'Mato Grosso', 'Ceará']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['Nova Brasilândia', 'Cuiabá', 'Fortaleza']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Veículo Oficial', 'Veículo Oficial', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['1.0', '0.5', '5.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Sim']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2026_Trecho.csv
+Encoding usado: latin-1
+Linhas: 6 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['21513165', '21513165', '21513165']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000080/26', '000080/26', '000080/26']
+  • Sequência Trecho                         → INT                  | Amostras: ['3', '2', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['06/01/2026', '05/01/2026', '05/01/2026']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Estados Unidos da América', 'Estados Unidos da América']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'NULL', 'NULL']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Washington', 'Washington']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['07/01/2026', '06/01/2026', '05/01/2026']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Estados Unidos da América']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Minas Gerais', 'Rio de Janeiro', 'NULL']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['Juiz de Fora', 'Rio de Janeiro', 'Washington']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Rodoviário', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Sim', 'Sim']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2019_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,765,515 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['15045825', '15100682', '15114708']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '1', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['06/02/2019', '01/02/2019', '01/02/2019']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Estados Unidos da América', 'Estados Unidos da América', 'Dinamarca']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['Charlottesville - Virgínia', 'Durham - Carolina do Norte', 'Copenhague']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['07/02/2019', '02/02/2019', '01/02/2019']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Pernambuco', 'Pernambuco', 'São Paulo']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Recife', 'Recife', 'São Paulo']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Sim', 'Sim']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2022_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,456,794 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['17438343', '17513655', '17513655']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/22', '000001/22', '000001/22']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['12/02/2022', '16/12/2022', '04/01/2022']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Bangladesh', 'Reino Unido', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'São Paulo']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['Daca', 'Londres', 'São Paulo']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['14/02/2022', '16/12/2022', '16/12/2022']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Reino Unido']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'São Paulo', 'NULL']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Brasília', 'São Paulo', 'Londres']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Sim']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2014_Trecho.csv
+Encoding usado: latin-1
+Linhas: 2,452,431 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['10011602', '10011602', '10011605']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '2']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['12/01/2014', '13/01/2014', '09/01/2014']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'Rio de Janeiro', 'Rio Grande do Sul']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Brasília', 'Rio de Janeiro', 'Erechim']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['13/01/2014', '13/01/2014', '09/01/2014']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Distrito Federal', 'Rio Grande do Sul']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Brasília', 'Passo Fundo']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Veículo Oficial']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['1.0', '0.5', '0.5']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2013_Trecho.csv
+Encoding usado: latin-1
+Linhas: 32 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2012006906', '2012006906', '2012006906']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '4', '3']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['10/03/2013', '17/03/2013', '13/03/2013']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'PANAMÁ', 'Espanha']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'NULL', 'NULL']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Brasília', 'PANAMÁ', 'Madri']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['10/03/2013', '19/03/2013', '17/03/2013']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'ESTADOS UNIDOS DA AMÉRICA', 'PANAMÁ']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Bahia', 'NULL', 'NULL']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['Salvador', 'NOVA IORQUE', 'PANAMÁ']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '2.0', '4.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2016_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,769,652 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['12463187', '12463187', '12463188']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['01/01/2016', '15/01/2016', '07/01/2016']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'África do Sul', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Maranhão', 'NULL', 'Pará']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['São Luís', 'Cidade do Cabo', 'Breves']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['15/01/2016', '15/01/2016', '17/01/2016']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['África do Sul', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['NULL', 'Maranhão', 'Pará']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Cidade do Cabo', 'São Luís', 'Gurupá']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Fluvial']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Sim']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2024_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,717,672 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['18831091', '18831091', '18831495']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000011/24', '000011/24', '000001/24']
+  • Sequência Trecho                         → INT                  | Amostras: ['2', '1', '2']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['25/02/2024', '23/02/2024', '22/01/2024']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Acre', 'Acre', 'São Paulo']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['Rio Branco', 'Xapuri', 'São Paulo']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['25/02/2024', '25/02/2024', '22/01/2024']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Acre', 'Acre', 'Minas Gerais']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Xapuri', 'Rio Branco', 'Uberlândia']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Veículo Próprio', 'Veículo Próprio', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.5', '2.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Sim', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2018_Trecho.csv
+Encoding usado: latin-1
+Linhas: 2,071,425 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['13501576', '13501576', '14026421']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['2', '1', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['02/03/2018', '10/02/2018', '09/01/2018']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Portugal', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['NULL', 'Rio de Janeiro', 'São Paulo']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['Coimbra', 'Rio de Janeiro', 'Santo André']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['02/03/2018', '02/03/2018', '19/11/2018']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Portugal', 'Estados Unidos da América']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'NULL', 'NULL']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Rio de Janeiro', 'Coimbra', 'Bloomington - Indiana']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Sim', 'Sim']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2017_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,963,435 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['13091725', '13091725', '13092165']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '2']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['31/01/2017', '30/09/2017', '24/09/2017']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Reino Unido', 'Reino Unido', 'Reino Unido']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Oxford', 'Oxford', 'Londres']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['30/09/2017', '30/09/2017', '24/09/2017']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Reino Unido', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['NULL', 'Distrito Federal', 'Distrito Federal']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['Oxford', 'Brasília', 'Brasília']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2012_Trecho.csv
+Encoding usado: latin-1
+Linhas: 12 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011003300', '2011003300', '2011003300']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['3', '2', '4']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['26/02/2012', '23/02/2012', '28/02/2012']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['México', 'Brasil', 'ESTADOS UNIDOS DA AMÉRICA']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['NULL', 'São Paulo', 'NULL']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Cidade do México', 'São Paulo', 'NOVA IORQUE']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['28/02/2012', '26/02/2012', '28/02/2012']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['ESTADOS UNIDOS DA AMÉRICA', 'México', 'Estados Unidos da América']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['NOVA IORQUE', 'Cidade do México', 'Atlanta']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '1.5', '2.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2011_Trecho.csv
+Encoding usado: latin-1
+Linhas: 10 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011000023', '2011000023', '2011000177']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['2', '1', '1']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['21/09/2011', '20/09/2011', '18/09/2011']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'São Paulo', 'Distrito Federal']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Brasília', 'São Paulo', 'Brasília']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['21/09/2011', '21/09/2011', '19/09/2011']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['São Paulo', 'Distrito Federal', 'Rio de Janeiro']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['São Paulo', 'Brasília', 'Rio de Janeiro']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '1.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2025_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,392,261 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['20261730', '20261730', '20261730']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000086/25-1C', '000086/25-1C', '000086/25-1C']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '3', '2']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['01/03/2025', '01/03/2025', '01/03/2025']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Distrito Federal', 'Rio de Janeiro']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['Niterói', 'Brasília', 'Rio de Janeiro']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['01/03/2025', '04/08/2025', '01/03/2025']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Acre', 'Distrito Federal']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Rio de Janeiro', 'Rio Branco', 'Brasília']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Fluvial', 'Aéreo', 'Aéreo']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Não', 'Sim', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2023_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,818,247 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['17821923', '17821923', '18159396']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/23-1C', '000001/23-1C', '000001/23']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '3']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['01/01/2023', '02/12/2023', '04/03/2023']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Reino Unido', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['São Paulo', 'NULL', 'Goiás']
+  • Origem - Cidade                          → NVARCHAR(52)         | Amostras: ['São Paulo', 'Loughborough', 'Pirenópolis']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['02/12/2023', '02/12/2023', '05/03/2023']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Reino Unido', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['NULL', 'São Paulo', 'Rio de Janeiro']
+  • Destino - Cidade                         → NVARCHAR(52)         | Amostras: ['Loughborough', 'São Paulo', 'Rio de Janeiro']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Rodoviário']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Trecho
+Arquivo: 2015_Trecho.csv
+Encoding usado: latin-1
+Linhas: 1,789,472 | Colunas: 14
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['11407327', '11407327', '11407327']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Sequência Trecho                         → INT                  | Amostras: ['1', '2', '3']
+  • Origem - Data                            → NVARCHAR(50)         | Amostras: ['01/01/2015', '16/01/2015', '16/01/2015']
+  • Origem - País                            → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Origem - UF                              → NVARCHAR(50)         | Amostras: ['Ceará', 'Ceará', 'Bahia']
+  • Origem - Cidade                          → NVARCHAR(50)         | Amostras: ['Fortaleza', 'Fortaleza', 'Salvador']
+  • Destino - Data                           → NVARCHAR(50)         | Amostras: ['16/01/2015', '16/01/2015', '16/01/2015']
+  • Destino - País                           → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • Destino - UF                             → NVARCHAR(50)         | Amostras: ['Ceará', 'Bahia', 'Bahia']
+  • Destino - Cidade                         → NVARCHAR(50)         | Amostras: ['Fortaleza', 'Salvador', 'Ilhéus']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Veículo Próprio', 'Aéreo', 'Veículo Próprio']
+  • Número Diárias                           → DECIMAL(18,4)        | Amostras: ['15.0', '0.0', '0.5']
+  • Missao?                                  → NVARCHAR(50)         | Amostras: ['Sim', 'Não', 'Não']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2015_Passagem.csv
+Encoding usado: latin-1
+Linhas: 510,805 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['11407327', '11407370', '11407370']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Ceará', 'Santa Catarina', 'Espírito Santo']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Fortaleza', 'Navegantes', 'Vitória']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Bahia', 'Espírito Santo', 'Santa Catarina']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Salvador', 'Vitória', 'Navegantes']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['800.57', '319.85', '379.85']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2018_Passagem.csv
+Encoding usado: latin-1
+Linhas: 503,192 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['14046485', '14046485', '14166390']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Rodoviário', 'Rodoviário', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Ceará', 'Ceará', 'Mato Grosso']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Fortaleza', 'Sobral', 'Sinop']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Ceará', 'Ceará', 'Paraná']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Sobral', 'Fortaleza', 'Londrina']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['40.95', '33.25', '665.38']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['13.51', '10.97', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2013_Passagem.csv
+Encoding usado: latin-1
+Linhas: 34 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2012006906', '2012006906', '2012006906']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'PANAMÁ', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'NULL', 'Distrito Federal']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Brasília', 'PANAMÁ', 'Brasília']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'ESTADOS UNIDOS DA AMÉRICA', 'SUÍÇA']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Bahia', 'NULL', 'NULL']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Salvador', 'NOVA IORQUE', 'BASEL']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['549.83', '1374.32', '69.9']
+  • Taxa de serviço                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2014_Passagem.csv
+Encoding usado: latin-1
+Linhas: 734,015 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['10011602', '10011602', '10011617']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'Rio de Janeiro', 'São Paulo']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Brasília', 'Rio de Janeiro', 'Presidente Prudente']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Distrito Federal', 'Rio de Janeiro']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Brasília', 'Rio de Janeiro']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['570.45', '602.47', '980.94']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2020_Passagem.csv
+Encoding usado: latin-1
+Linhas: 115,384 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16378243', '16386658', '16386658']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/20', '000002/20', '000002/20']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['México', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['NULL', 'Distrito Federal', 'Rio Grande do Norte']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Cidade do México', 'Brasília', 'Natal']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'Rio Grande do Norte', 'Distrito Federal']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Brasília', 'Natal', 'Brasília']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Brasil', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Brasília', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['México', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['NULL', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Cidade do México', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['3426.33', '529.57', '522.04']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['6.65', '1.14', '1.14']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['15/08/2019', '16/08/2019', '16/08/2019']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['12:50', '12:43', '12:43']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2019_Passagem.csv
+Encoding usado: latin-1
+Linhas: 435,902 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['15045825', '15100682', '15114708']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Estados Unidos da América', 'Estados Unidos da América', 'Dinamarca']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Charlottesville - Virgínia', 'Durham - Carolina do Norte', 'Copenhague']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Pernambuco', 'Pernambuco', 'São Paulo']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Recife', 'Recife', 'São Paulo']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['3399.69', '2919.19', '2753.38']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['6.64', '6.64', '6.64']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2016_Passagem.csv
+Encoding usado: latin-1
+Linhas: 490,113 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['12463208', '12463208', '12463224']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Acre', 'Bahia', 'Bahia']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Rio Branco', 'Salvador', 'Salvador']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Bahia', 'Acre', 'Santa Catarina']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Salvador', 'Rio Branco', 'Florianópolis']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['2444.35', '1453.89', '596.03']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2024_Passagem.csv
+Encoding usado: latin-1
+Linhas: 402,085 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['19177818', '19177818', '19220977']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/24-1C', '000001/24-1C', '000001/24-1C']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'França', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'NULL', 'Paraná']
+  • Cidade - Origem ida                      → NVARCHAR(52)         | Amostras: ['Brasília', 'Paris', 'Curitiba']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['França', 'Brasil', 'Portugal']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['NULL', 'Distrito Federal', 'NULL']
+  • Cidade - Destino ida                     → NVARCHAR(52)         | Amostras: ['Paris', 'Brasília', 'Porto']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Portugal']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'NULL']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Porto']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Brasil']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Paraná']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Curitiba']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['6871.34', '7.77', '8596.69']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['6.6', '6.6', '0.0']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['19/09/2023', '19/09/2023', '31/08/2023']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['18:53', '18:53', '14:49']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2017_Passagem.csv
+Encoding usado: latin-1
+Linhas: 523,679 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['13202218', '13202218', '13202422']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['França', 'Brasil', 'França']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['NULL', 'Paraná', 'NULL']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Lyon', 'Curitiba', 'Lyon']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'França', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Paraná', 'NULL', 'Paraná']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Curitiba', 'Lyon', 'Curitiba']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['1657.08', '1236.73', '2402.04']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2026_Passagem.csv
+Encoding usado: latin-1
+Linhas: 3 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['21513165', '21540831', '21540831']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000080/26', '000063/26', '000063/26']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Estados Unidos da América', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['NULL', 'Acre', 'Distrito Federal']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Washington', 'Rio Branco', 'Brasília']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Distrito Federal', 'Acre']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'Brasília', 'Rio Branco']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['5272.57', '1440.79', '1416.88']
+  • Taxa de serviço                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['23/10/2025', '17/11/2025', '17/11/2025']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['12:30', '13:15', '13:15']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2023_Passagem.csv
+Encoding usado: latin-1
+Linhas: 390,851 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['18159396', '18159396', '18288418']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/23', '000001/23', '000007/23-1C']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Reino Unido', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Rio de Janeiro', 'NULL', 'Distrito Federal']
+  • Cidade - Origem ida                      → NVARCHAR(52)         | Amostras: ['Rio de Janeiro', 'Aberdeen', 'Brasília']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Reino Unido', 'Brasil', 'Estados Unidos da América']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['NULL', 'Rio de Janeiro', 'NULL']
+  • Cidade - Destino ida                     → NVARCHAR(52)         | Amostras: ['Aberdeen', 'Rio de Janeiro', 'Nova York']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Estados Unidos da América']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'NULL']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Nova York']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Brasil']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Distrito Federal']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Brasília']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['3940.94', '3940.94', '7434.13']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['6.31', '6.31', '0.0']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['11/08/2022', '11/08/2022', '04/11/2022']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['20:26', '20:26', '11:04']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2025_Passagem.csv
+Encoding usado: latin-1
+Linhas: 339,320 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['20286869', '20286869', '20289421']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000002/25', '000002/25', '000001/25']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Colômbia']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Tocantins', 'Paraná', 'NULL']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Palmas', 'Maringá', 'Bogotá']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Paraná', 'Tocantins', 'Minas Gerais']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Maringá', 'Palmas', 'Uberlândia']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['1272.97', '1271.77', '4329.72']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['17/09/2024', '17/09/2024', '17/10/2024']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['11:43', '11:43', '14:46']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2022_Passagem.csv
+Encoding usado: latin-1
+Linhas: 281,850 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['17563956', '17563956', '17563956']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000002/22-2C', '000002/22-2C', '000002/22-2C']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Pernambuco', 'Pernambuco', 'Paraná']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Recife', 'Fernando de Noronha', 'Londrina']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Pernambuco', 'Paraná', 'Pernambuco']
+  • Cidade - Destino ida                     → NVARCHAR(52)         | Amostras: ['Fernando de Noronha', 'Londrina', 'Fernando de Noronha']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['1753.24', '1529.86', '1144.24']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['02/09/2021', '20/12/2021', '20/12/2021']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['11:01', '18:27', '18:27']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2011_Passagem.csv
+Encoding usado: latin-1
+Linhas: 10 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011000023', '2011000023', '2011000177']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Distrito Federal', 'São Paulo', 'Distrito Federal']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Brasília', 'São Paulo', 'Brasília']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['São Paulo', 'Distrito Federal', 'Rio de Janeiro']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['São Paulo', 'Brasília', 'Rio de Janeiro']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['203.43', '203.43', '412.18']
+  • Taxa de serviço                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2021_Passagem.csv
+Encoding usado: latin-1
+Linhas: 152,306 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16889781', '16889781', '16910306']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000120/20', '000120/20', '000076/20']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['Sergipe', 'Ceará', 'Distrito Federal']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Aracaju', 'Fortaleza', 'Brasília']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['Brasil', 'Brasil', 'Brasil']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['Ceará', 'Sergipe', 'Rio Grande do Sul']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['Fortaleza', 'Aracaju', 'Porto Alegre']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['473.64', '706.13', '454.46']
+  • Taxa de serviço                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → NVARCHAR(50)         | Amostras: ['14/04/2020', '16/04/2020', '02/03/2020']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['14:36', '17:11', '13:07']
+
+--------------------------------------------------------------------------------
+
+Pasta: Passagem
+Arquivo: 2012_Passagem.csv
+Encoding usado: latin-1
+Linhas: 15 | Colunas: 19
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011003300', '2011003300', '2011003300']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Meio de transporte                       → NVARCHAR(50)         | Amostras: ['Aéreo', 'Aéreo', 'Aéreo']
+  • País - Origem ida                        → NVARCHAR(50)         | Amostras: ['México', 'Brasil', 'ESTADOS UNIDOS DA AMÉRICA']
+  • UF - Origem ida                          → NVARCHAR(50)         | Amostras: ['NULL', 'São Paulo', 'NULL']
+  • Cidade - Origem ida                      → NVARCHAR(50)         | Amostras: ['Cidade do México', 'São Paulo', 'NOVA IORQUE']
+  • País - Destino ida                       → NVARCHAR(50)         | Amostras: ['ESTADOS UNIDOS DA AMÉRICA', 'México', 'Estados Unidos da América']
+  • UF - Destino ida                         → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Cidade - Destino ida                     → NVARCHAR(50)         | Amostras: ['NOVA IORQUE', 'Cidade do México', 'Atlanta']
+  • País - Origem volta                      → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Origem volta                        → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Origem volta                    → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Pais - Destino volta                     → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • UF - Destino volta                       → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Cidade - Destino volta                   → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Valor da passagem                        → DECIMAL(18,4)        | Amostras: ['1804.65', '1731.72', '408.67']
+  • Taxa de serviço                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Data da emissão/compra                   → VARCHAR(255)         | Amostras: ['NULL', 'NULL', 'NULL']
+  • Hora da emissão/compra                   → NVARCHAR(50)         | Amostras: ['00:00', '00:00', '00:00']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2012_Viagem.csv
+Encoding usado: latin-1
+Linhas: 4 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011003300', '2012001641', '2012005082']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['25201', '25201', '25201']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social']
+  • Código órgão solicitante                 → INT                  | Amostras: ['25201', '25201', '25201']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.367.307-**', '***.691.381-**', '***.367.307-**']
+  • Nome                                     → NVARCHAR(50)         | Amostras: ['LUIZ AWAZU PEREIRA DA SILVA', 'HENRIQUE BALDUINO MACHADO MOREIRA', 'LUIZ AWAZU PEREIRA DA SILVA']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['DIRETOR DO BANCO CENTRAL', 'PROCURADOR DO BANCO CENTRAL', 'DIRETOR DO BANCO CENTRAL']
+  • Função                                   → INT                  | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['23/02/2012', '10/05/2012', '29/10/2012']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['29/02/2012', '11/05/2012', '31/10/2012']
+  • Destinos                                 → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Motivo                                   → NVARCHAR(119)        | Amostras: ["Participar do 'G-20 Deputies Meeting & FM/CBG Meeting'.", 'Participar do Seminário de Metas para Inflação e de Reunião na Brain.', "Participar do 'IV Fórum Banco Central sobre Inclusao Financeira'."]
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['5645.9', '543.06', '924.48']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['18247.43', '926.54', '2052.23']
+  • Valor devolução                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → INT                  | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2023_Viagem.csv
+Encoding usado: latin-1
+Linhas: 832,759 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['17821923', '18159396', '18236583']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/23-1C', '000001/23', '000018/23']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(997)        | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Código órgão solicitante                 → INT                  | Amostras: ['26352', '26271', '26236']
+  • Nome órgão solicitante                   → NVARCHAR(108)        | Amostras: ['Fundação Universidade Federal do ABC', 'Fundação Universidade de Brasília', 'Universidade Federal Fluminense']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.875.238-**', '***.000.000-**', 'NULL']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['PRISCILA LEAL DA SILVA', 'Ekaterina Pavlovskaia', 'CAMILLA DUARTE DA SILVA']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['PROFESSOR DO MAGISTERIO SUPERIOR', 'NULL', 'BIBLIOTECARIO-DOCUMENTALISTA']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['01/01/2023', '25/02/2023', '16/01/2023']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['02/12/2023', '06/03/2023', '28/02/2024']
+  • Destinos                                 → NVARCHAR(779)        | Amostras: ['Loughborough/Reino Unido', 'Pirenópolis/GO', 'Rio de Janeiro/RJ']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Intercâmbio acadêmico PCDP anterior 07/21-3C', "Segue abaixo cópia da carta-convite enviada à proposta: 'I'm are glad to invite you to be Keynote Speaker at the upcoming XIX International Symposium on Dynamic Problems of Mechanics - DINAME 2023. The event will be held from February 26th to 3rd, 2023, in Pirenópolis, Goiás, Brazil. We are sure that your expertise and prestige in the field of Dynamics will enrich and enhance the symposium. Since 1986 the Symposium has been a vivid forum for scientist and engineers to explore discuss and present the recent developments in analysis and state-of-the-art techniques of dynamical problems and mechanics. It has always had an active participation of researchers and industry engineers, from Brazil and many other countries as well. DINAME's goal is to provide the participants with an ambiance that favors personal and scientific exchange, in a regime of immersion during a whole week. For this goal, a single session format is adopted for all oral presentation.'", 'Afastamento para pós-graduação stricto sensu no nível de mestrado junto ao Programa de Pós Graduação em Divulgação da Ciência, Tecnologia e Saúde da FIOCRUZ, conforme processo SEI-UFF nº 23069.164538/2022-76, autorizado pela chefia e publicado em Boletim de Serviço.']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '7894.5', '0.0']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2022_Viagem.csv
+Encoding usado: latin-1
+Linhas: 662,070 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['17438343', '17503013', '17503072']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000001/22', 'Informações p', 'Informações p']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(996)        | Amostras: ['Sem informação', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Código do órgão superior                 → INT                  | Amostras: ['35000', '30000', '30000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério das Relações Exteriores', 'Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública']
+  • Código órgão solicitante                 → INT                  | Amostras: ['35000', '30108', '30108']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Ministério das Relações Exteriores - Unidades com vínculo direto', 'Polícia Federal', 'Polícia Federal']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.188.261-**', 'ID012100276', 'NULL']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['RAIMUNDO NONATO DA SILVA COSTA', 'Informações protegidas por sigilo', 'Sem Informação']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['AGENTE DE VIGILANCIA', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-11', '-11']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['12/02/2022', '01/01/2022', '01/01/2022']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['14/02/2022', '24/04/2022', '04/11/2022']
+  • Destinos                                 → NVARCHAR(984)        | Amostras: ['Brasília/DF', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Servidor designado em missão transitória na Embaixada em Daca para reforço de lotação. A missão, que inicialmente era de 90 dias, teve sucessivas prorrogações, até completar 2 anos. Por impossibilidade técnica do sistema (não é possível cadastrar retorno em 2022 em PCDP de 2020), os trechos tiveram de ser desmembrados e esta PCDP está sendo cadastrada para registro do retorno do servidor. PCDP original: 796/20.', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '20995.16', '63045.68']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2021_Viagem.csv
+Encoding usado: latin-1
+Linhas: 424,644 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16829271', '16889781', '16910306']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000163/21', '000120/20', '000076/20']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Não realizada', 'Não realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['SIM', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → VARCHAR(2000)        | Amostras: ['A viagem estva programada para ser realizda em janeiro de 2021, mas devido a não disponibilidade de empenho a mesma está sendo feita, com urgencia.', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['36000', '26000', '47000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Saúde', 'Ministério da Educação', 'Ministério do Planejamento e Orçamento']
+  • Código órgão solicitante                 → INT                  | Amostras: ['36211', '26281', '61201']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Fundação Nacional de Saúde', 'Fundação Universidade Federal de Sergipe', 'Instituto de Pesquisa Econômica Aplicada']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.980.641-**', '***.157.645-**', '***.442.331-**']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['VILIDIANA MORAES MOURA', 'ROSE MARY SILVEIRA MENEZES', 'IGOR FERRAZ DA FONSECA']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['ENGENHEIRO', 'ASSISTENTE EM ADMINISTRAçãO', 'TECNICO DE PLANEJAMENTO E PESQUISA']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['FCT-03', 'FG-0001', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Função Comissionada Técnica', 'FG-0001', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['03/02/2021', '11/05/2021', '23/02/2021']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['04/02/2021', '16/05/2021', '23/02/2021']
+  • Destinos                                 → NVARCHAR(957)        | Amostras: ['Nova Brasilândia/MT', 'Fortaleza/CE', 'Porto Alegre/RS']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Visita técnica no municipio de Nova Brasilãndia para liberação de parcela do CV 1550/2017.', 'Participação no XXI Congresso Nacional de Secretariado e Reunião de Diretoria', 'Apresentação de artigo em congresso internacional (IV ISA Forum of Sociology)']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['223.86', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '1179.77', '1026.49']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2015_Viagem.csv
+Encoding usado: latin-1
+Linhas: 859,797 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['11407311', '11407312', '11407313']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Código do órgão superior                 → INT                  | Amostras: ['30000', '30000', '30000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública']
+  • Código órgão solicitante                 → INT                  | Amostras: ['30802', '30802', '30802']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Polícia Rodoviária Federal', 'Polícia Rodoviária Federal', 'Polícia Rodoviária Federal']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['ID010900192', 'ID000000272', 'ID002000201']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-11', '-11', '-11']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['01/01/2015', '01/01/2015', '01/01/2015']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['09/01/2015', '09/01/2015', '19/01/2015']
+  • Destinos                                 → NVARCHAR(694)        | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['1402.8', '1402.8', '3944.3']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['340.85', '340.85', '219.03']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2018_Viagem.csv
+Encoding usado: latin-1
+Linhas: 990,066 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['13501576', '14026421', '14046485']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['36000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Saúde', 'Ministério da Educação', 'Ministério da Educação']
+  • Código órgão solicitante                 → INT                  | Amostras: ['36201', '26352', '26405']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Fundação Oswaldo Cruz', 'Fundação Universidade Federal do ABC', 'Instituto Federal de Educação, Ciência e Tecnologia do Ceará']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.637.547-**', '***.199.590-**', '***.061.023-**']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['ELIANE CALDAS DO NASCIMENTO OLIVEIRA', 'ALYSSON FABIO FERRARI', 'REGINA LUCIA BEZERRA VASQUES']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['PESQUISADOR EM SAUDE PUBLICA', 'PROFESSOR DO MAGISTERIO SUPERIOR', 'NULL']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['10/02/2018', '09/01/2018', '23/02/2018']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['02/03/2018', '19/11/2018', '25/02/2018']
+  • Destinos                                 → NVARCHAR(648)        | Amostras: ['Coimbra/Portugal', 'Bloomington - Indiana/Estados Unidos da América', 'Meruoca/CE']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['PARTICIPAÇÃO EM PROJETOS DE PESQUISA DESENVOLVIDOS PELO BLH/IFF, EM CURSOS DE PÓS-GRADUAÇÃO STRITO CENSO, APERFEIÇOAMENTO, ATUALIZAÇÃO E SENSIBILIZAÇÃO NA CAPACITAÇÃO DE SERVIDORES PROFISSIONAIS DA ÁREA DE SAÚDE, DENTRE OUTROS CURSOS TREINAMENTOS RELACIONADOS À PROMOÇÃO DO ALEITAMENTO MATERNO; PRODUÇÃO ACADÊMICA COM ARTIGOS PARA SEREM PUBLICADOS E ORIENTAÇÃO DE ALUNOS; ASSISTÊNCIA AMBULATORIAL E HOSPITALAR E REUNIÕES E PLANEJAMENTOS.', 'Estágio pós-doutoral no exterior.', 'Realizar o encontro presencial da Disciplina ESPANHOL BÁSICO, no Polo de MERUOCA no dia 24/02/2018, no turno MANHÃ E TARDE']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '537.5']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '98.68']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2020_Viagem.csv
+Encoding usado: latin-1
+Linhas: 343,465 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['16332319', '16378243', '16386658']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000002/20-1C', '000001/20', '000002/20']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Não realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(999)        | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Código órgão solicitante                 → INT                  | Amostras: ['26352', '26271', '26271']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Fundação Universidade Federal do ABC', 'Fundação Universidade de Brasília', 'Fundação Universidade de Brasília']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.211.458-**', '***.000.000-**', '***.708.864-**']
+  • Nome                                     → NVARCHAR(69)         | Amostras: ['CLAUDIA CORREA DE ANDRADE OLIVEIRA', 'Carlos Andres Molina Posadas', 'ALEXSANDRO GALENO ARAUJO DANTAS']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['PROFESSOR DO MAGISTERIO SUPERIOR', 'NULL', 'PROFESSOR DO MAGISTERIO SUPERIOR']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-1', 'FUC-0001']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'FUC-0001']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['05/01/2020', '07/03/2020', '10/03/2020']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['04/01/2021', '12/03/2020', '12/03/2020']
+  • Destinos                                 → NVARCHAR(653)        | Amostras: ['Praga/República Tcheca', 'Brasília/DF', 'Brasília/DF']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Estagio pós-doutoral visando maior qualificação da pesquisa científica', 'O professor participará da banca de defesa de tese dos alunos: Vanessa Danielle de Morais, Raimundo Lima e Paulo Alziro Schnor, a acontecer entre 10 e 12 de Março de 2020. O professor participará, ainda, de evento internacional da linha de pesquisa Imagem, Estética e Cultura Contemporânea sobre Estética, Arte e Literatura.', 'O professor participará da banca de defesa de tese dos alunos: Vanessa Danielle de Morais, Raimundo Lima e Paulo Alziro Schnor, a acontecer entre 10 e 12 de Março de 2020. O professor participará, ainda, de evento internacional da linha de pesquisa Imagem, Estética e Cultura Contemporânea sobre Estética, Arte e Literatura.']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '3432.98', '1053.89']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2016_Viagem.csv
+Encoding usado: latin-1
+Linhas: 855,647 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['12463176', '12463177', '12463178']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Código do órgão superior                 → INT                  | Amostras: ['30000', '30000', '30000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública']
+  • Código órgão solicitante                 → INT                  | Amostras: ['30108', '30108', '30108']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Polícia Federal', 'Polícia Federal', 'Polícia Federal']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['ID001000323', 'ID011600267', 'ID013500231']
+  • Nome                                     → NVARCHAR(91)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-11', '-11', '-11']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['04/01/2016', '01/01/2016', '01/01/2016']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['26/02/2016', '31/01/2016', '11/01/2016']
+  • Destinos                                 → NVARCHAR(987)        | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['8791.5', '6139.2', '1822.08']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2014_Viagem.csv
+Encoding usado: latin-1
+Linhas: 1,151,312 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['10011585', '10011586', '10011588']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Informações p', 'Informações p']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Código do órgão superior                 → INT                  | Amostras: ['30000', '30000', '30000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública', 'Ministério da Justiça e Segurança Pública']
+  • Código órgão solicitante                 → INT                  | Amostras: ['30108', '30108', '30108']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Polícia Federal', 'Polícia Federal', 'Polícia Federal']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['ID014100240', 'ID009100112', 'ID004200146']
+  • Nome                                     → NVARCHAR(72)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-11', '-11', '-11']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['01/01/2014', '01/01/2014', '01/01/2014']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['10/01/2014', '17/01/2014', '19/01/2014']
+  • Destinos                                 → NVARCHAR(780)        | Amostras: ['Informações protegidas por sigilo', 'Informações protegidas por sigilo', 'Informações protegidas por sigilo']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente', 'Informação protegida por sigilo nos termos da legislação vigente']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['1645.47', '2805.6', '3159.6']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '1806.54']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2013_Viagem.csv
+Encoding usado: latin-1
+Linhas: 11 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['10033937', '2012006906', '2013000618']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Informações p', 'Sem informaçã', 'Sem informaçã']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['30000', '25201', '25201']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Justiça e Segurança Pública', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social']
+  • Código órgão solicitante                 → INT                  | Amostras: ['30108', '25201', '25201']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Polícia Federal', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['ID003200338', '***.367.307-**', '***.686.231-**']
+  • Nome                                     → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'LUIZ AWAZU PEREIRA DA SILVA', 'OTAVIO RIBEIRO DAMASO']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'DIRETOR DO BANCO CENTRAL', 'ANALISTA DO BANCO CENTRAL']
+  • Função                                   → INT                  | Amostras: ['-11', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['31/12/2013', '10/03/2013', '09/03/2013']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['20/01/2014', '19/03/2013', '14/03/2013']
+  • Destinos                                 → NVARCHAR(50)         | Amostras: ['Informações protegidas por sigilo', 'Sem informação', 'Sem informação']
+  • Motivo                                   → NVARCHAR(246)        | Amostras: ['Informação protegida por sigilo nos termos da legislação vigente', 'Paletra em conferência do Banco de España, em Madri, Espanha; Reunião do BID e Fórum do FMI, na Cidade do Panamá, Panamá; e reuniões com investidores, em Nova Iorque, EUA.', "Assessorar o Presidente na 'Bimonthly Central Banks Governors' Meeting' e de em encontros promovidos pelo BIS, em Basiléia, Suíça, em seminário promovido pelo Banco Central da Polônia e encontros com lideranças empresariais, na Polônia."]
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['3391.2', '5311.42', '3775.18']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['903.94', '26648.21', '14933.65']
+  • Valor devolução                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '1123.82', '552.09']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2017_Viagem.csv
+Encoding usado: latin-1
+Linhas: 919,688 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['13091725', '13092165', '13165783']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Não realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['-1', '-1', '63000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Sem informação', 'Sem informação', 'Advocacia-Geral da União']
+  • Código órgão solicitante                 → INT                  | Amostras: ['-1', '-1', '63000']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Sem informação', 'Sem informação', 'Advocacia-Geral da União - Unidades com vínculo direto']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.053.939-**', '***.622.321-**', '***.497.025-**']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['JOAO AUGUSTO SOBREIRO SIGORA', 'RAPHAELLA DE ALMEIDA BANDEIRA', 'RICARDO CALDAS']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['ANALISTA TECNICO DE POLITICAS SOCIAIS', 'ANALISTA TECNICO DE POLITICAS SOCIAIS', 'PROCURADOR FEDERAL']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['31/01/2017', '31/01/2017', '11/02/2017']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['30/09/2017', '24/09/2017', '09/04/2017']
+  • Destinos                                 → NVARCHAR(636)        | Amostras: ['Oxford/Reino Unido', 'Londres/Reino Unido', 'Girona/Espanha']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ["Participar do curso 'Mestrado em Políticas Públicas' a ser ministrado pela Universidade de Oxford, a realizar-se em Oxford, Inglaterra, Reino Unido, no período de 22 de setembro de 2016 a 30 de setembro de 2017, conforme o Processo nº 71000.073591/2016-58. Continuação da PCDP: 1466/16.", "Participar do curso 'Mestrado em Política Social e Desenvolvimento' a ser ministrado pela London School of Economics and Political Science, a realizar-se em Londres, Inglaterra, Reino Unido, no período de 22 de setembro de 2016 a 24 de setembro de 2017, conforme o Processo nº 71000.070212/2016-78. Continuação da PCDP: 1457/16.", 'Curso de Mestrado em Segurança, Justiça e Direito, promovido pela Universidade de Girona, na Espanha, no período de 11 de fevereiro a 9 de abril de 2017, incluído o trânsito, com ônus limitado para a Advocacia-Geral da União.']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2026_Viagem.csv
+Encoding usado: latin-1
+Linhas: 2 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['21513165', '21540831']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000080/26', '000063/26']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Não realizada', 'Não realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['52000', '68000']
+  • Nome do órgão superior                   → NVARCHAR(50)         | Amostras: ['Ministério da Defesa', 'Ministério de Portos e Aeroportos']
+  • Código órgão solicitante                 → INT                  | Amostras: ['52121', '62201']
+  • Nome órgão solicitante                   → NVARCHAR(50)         | Amostras: ['Comando do Exército', 'Agência Nacional de Aviação Civil']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.353.466-**', '***.972.929-**']
+  • Nome                                     → NVARCHAR(50)         | Amostras: ['LEONARDO DE CARVALHO OLIVEIRA', 'MARCOS ROBERTO EURICH']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['NULL', 'ESP EM REGULACAO DE AVIACAO CIVIL']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['Subtenente', 'CGE-0003']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Subtenentes', 'Cargo de Gerência Executiva']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['05/01/2026', '27/01/2026']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['07/01/2026', '30/01/2026']
+  • Destinos                                 → NVARCHAR(82)         | Amostras: ['Washington/Estados Unidos da América, Rio de Janeiro/RJ, Juiz de Fora/MG', 'Rio Branco/AC, Rio Branco/AC']
+  • Motivo                                   → NVARCHAR(178)        | Amostras: ['Movimentação de militar por término de missão no exterior. Solicito 03 (três) peças de bagagem acompanhada (art. 9º, II, b, e § 1º da Port C Ex nº 1.570, de 11 AGO 21).', 'F0501SIA VISITA TÉCNICA Visita Técnica Aeroporto de Rio Branco (SBRB) 174/25 00058.096200/2025-51']
+  • Valor diárias                            → INT                  | Amostras: ['0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['5272.57', '2857.67']
+  • Valor devolução                          → INT                  | Amostras: ['0.0', '0.0']
+  • Valor outros gastos                      → INT                  | Amostras: ['0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2025_Viagem.csv
+Encoding usado: latin-1
+Linhas: 645,044 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['20261730', '20286869', '20289421']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000086/25-1C', '000002/25', '000001/25']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(998)        | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '52000']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Defesa']
+  • Código órgão solicitante                 → INT                  | Amostras: ['26236', '26241', '52121']
+  • Nome órgão solicitante                   → NVARCHAR(108)        | Amostras: ['Universidade Federal Fluminense', 'Universidade Federal do Paraná', 'Comando do Exército']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.834.907-**', '***.235.999-**', '***.396.790-**']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['NAZIRA CORREIA CAMELY', 'ALMIR MANOEL CUNICO', 'ROMULO FABIANO PACHECO RAVAZIO']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['PROFESSOR DO MAGISTERIO SUPERIOR', 'PROFESSOR DO MAGISTERIO SUPERIOR', 'NULL']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', 'FG-0001', 'OfSuperior']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'FG-0001', 'OfSuperior']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['01/03/2025', '25/01/2025', '05/01/2025']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['04/08/2025', '01/02/2025', '07/01/2025']
+  • Destinos                                 → NVARCHAR(855)        | Amostras: ['Rio Branco/AC', 'Palmas/TO', 'Bogotá/Colômbia, Uberlândia/MG']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Desenvolvimento da pesquisa que desenvolvo na UFF.. Estágio de Pós-Doutorado na UFAC.', 'PARTICIPAÇÃO DO XXV ENCONTRO BRASILEIRO DE ICTIOLOGIA QUE SERÁ REALIZADO DE 26 A 31 DE JANEIRO DE 2025, NA CIDADE DE PALMAS - TO. ESTAREI REPRESENTANDO O PROGRAMA DE PÓS-GRADUAÇÃO EM AQUICULTURA E DESENVOLVIMENTO SUSTENTÁVEL COMO COORDENADOR DA ÁREA TEMÁTICA - PISCICULTURA (Piscicultura e desenvolvimento sustentável; piscicultura ornamental, aquariologia e tecnologia do pescado). RECURSOS: PROAP - 23075.046479/2024-38', 'Movimentação de militar por término de missão no exterior - Assessor Técnico no Grupo de Assessores Técnicos Interamericanos - GATI, da Junta Interamericana de Defesa (JID), na cidade de Bogotá, na República da Colômbia, conforme a Portaria EMCFA-MD n° 4.296, de 11 AGO 22, Trecho: Bogotá-Colômbia / Uberlândia-MG - Solicito 03 (três) peças de bagagem acompanhada (art. 9º, II, b) e § 1º da Port C Ex nº 1.570, de 11 AGO 21).']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '2544.74', '4329.72']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '1240.09']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2024_Viagem.csv
+Encoding usado: latin-1
+Linhas: 797,438 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['18831091', '18831495', '18831777']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['000011/24', '000001/24', '000002/24']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(999)        | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(87)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Código órgão solicitante                 → INT                  | Amostras: ['26425', '26274', '26274']
+  • Nome órgão solicitante                   → NVARCHAR(108)        | Amostras: ['Instituto Federal de Educação, Ciência e Tecnologia do Acre', 'Fundação Universidade Federal de Uberlândia', 'Fundação Universidade Federal de Uberlândia']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.405.257-**', '***.587.016-**', '***.587.016-**']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['RICARDO DOS SANTOS PEREIRA', 'LETICIA SANCHEZ FERREIRA', 'LETICIA SANCHEZ FERREIRA']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['PROFESSOR ENS BASICO TECN TECNOLOGICO', 'PROFESSOR DO MAGISTERIO SUPERIOR', 'PROFESSOR DO MAGISTERIO SUPERIOR']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['23/02/2024', '18/01/2024', '29/02/2024']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['25/02/2024', '22/01/2024', '04/03/2024']
+  • Destinos                                 → NVARCHAR(929)        | Amostras: ['Rio Branco/AC', 'São Paulo/SP', 'São Paulo/SP']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Ministrar a disciplina de Conceitos e Aplicações de Propriedade Intelectual (PI), do Curso de Mestrado Profissional em Propriedade Intelectual e Transferência de Tecnologia para a Inovação - ProfNIT, nos dias 23/02 e 24/02/2024.', 'Participação nas atividades do ESTAGIO DE CAPACITAÇÃO EM GINECOLOGIA NA INFÂNCIA E NA ADOLESCÊNCIA na UNIVERSIDADE DE SÃO PAULO (USP).', 'Participação nas atividades do ESTAGIO DE CAPACITAÇÃO EM GINECOLOGIA NA INFÂNCIA E NA ADOLESCÊNCIA na UNIVERSIDADE DE SÃO PAULO (USP).']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['929.18', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2011_Viagem.csv
+Encoding usado: latin-1
+Linhas: 3 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['2011000023', '2011000177', '2011001767']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Não realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['25201', '25201', '25201']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social']
+  • Código órgão solicitante                 → INT                  | Amostras: ['25201', '25201', '25201']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto', 'Banco Central do Brasil - Orçamento Fiscal e Seguridade Social - Unidades com vínculo direto']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.899.928-**', '***.693.210-**', '***.661.796-**']
+  • Nome                                     → NVARCHAR(50)         | Amostras: ['CARLOS EDUARDO DE CAMARGO CORSI', 'LUCIO RODRIGUES CAPELLETTO', 'ANTHERO DE MORAES MEIRELLES']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['ANALISTA DO BANCO CENTRAL', 'ANALISTA DO BANCO CENTRAL', 'DIRETOR SERVIDOR DO BANCO CENTRAL']
+  • Função                                   → INT                  | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['20/09/2011', '18/09/2011', '27/10/2011']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['21/09/2011', '19/09/2011', '06/11/2011']
+  • Destinos                                 → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Motivo                                   → NVARCHAR(228)        | Amostras: ['Reunião com o Denor e Desig (Projeto Basiléia II) - revisão das propostas da minuta de circular referentes a Risco de Crédito de contraparte, bem como detalhamento de critérios de supervisão referentes à abordagem IRB.', 'Participar de Reunião com a CVM.', 'Participar de reuniões em Belo Horizonte nos dias 28 e 29/10/011. Visitas aos componentes da Difis nas praças de SP/Curitiba/Porto Alegre/Belo Horizonte/Brasilia.']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '483.03', '1495.47']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['406.86', '835.87', '1706.21']
+  • Valor devolução                          → INT                  | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → INT                  | Amostras: ['0.0', '225.0', '0.0']
+
+--------------------------------------------------------------------------------
+
+Pasta: Viagem
+Arquivo: 2019_Viagem.csv
+Encoding usado: latin-1
+Linhas: 848,147 | Colunas: 22
+
+Colunas analisadas:
+  • Identificador do processo de viagem      → INT                  | Amostras: ['15045825', '15100682', '15114708']
+  • Número da Proposta (PCDP)                → NVARCHAR(50)         | Amostras: ['Sem informaçã', 'Sem informaçã', 'Sem informaçã']
+  • Situação                                 → NVARCHAR(50)         | Amostras: ['Realizada', 'Realizada', 'Realizada']
+  • Viagem Urgente                           → NVARCHAR(50)         | Amostras: ['NÃO', 'NÃO', 'NÃO']
+  • Justificativa Urgência Viagem            → NVARCHAR(74)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Código do órgão superior                 → INT                  | Amostras: ['26000', '26000', '26000']
+  • Nome do órgão superior                   → NVARCHAR(72)         | Amostras: ['Ministério da Educação', 'Ministério da Educação', 'Ministério da Educação']
+  • Código órgão solicitante                 → INT                  | Amostras: ['26291', '26291', '26291']
+  • Nome órgão solicitante                   → NVARCHAR(102)        | Amostras: ['Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior', 'Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior', 'Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior']
+  • CPF viajante                             → NVARCHAR(50)         | Amostras: ['***.377.624-**', '***.831.975-**', '***.325.718-**']
+  • Nome                                     → NVARCHAR(70)         | Amostras: ['MARINA FERREIRA KITAZONO ANTUNES', 'JORGE ANDRE DE CARVALHO MENDONCA', 'MARCO ANTONIO COUTO JUNIOR']
+  • Cargo                                    → NVARCHAR(50)         | Amostras: ['NULL', 'NULL', 'PESQUISADOR EM GEOCIENCIA']
+  • Função                                   → NVARCHAR(50)         | Amostras: ['-1', '-1', '-1']
+  • Descrição Função                         → NVARCHAR(50)         | Amostras: ['Sem informação', 'Sem informação', 'Sem informação']
+  • Período - Data de início                 → NVARCHAR(50)         | Amostras: ['06/02/2019', '01/02/2019', '01/02/2019']
+  • Período - Data de fim                    → NVARCHAR(50)         | Amostras: ['07/02/2019', '02/02/2019', '01/02/2019']
+  • Destinos                                 → NVARCHAR(575)        | Amostras: ['Recife/PE', 'Recife/PE', 'São Paulo/SP']
+  • Motivo                                   → VARCHAR(2000)        | Amostras: ['Regresso de bolsista CAPES do exterior- PE ( PROGRAMAS ESTRATÉGICOS -DRI )', 'Capacitação PDSE (Programa de Doutorado Sanduíche no Exterior).', 'Capacitação no exterior - PDSE']
+  • Valor diárias                            → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor passagens                          → DECIMAL(18,4)        | Amostras: ['3406.33', '2925.83', '2760.02']
+  • Valor devolução                          → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+  • Valor outros gastos                      → DECIMAL(18,4)        | Amostras: ['0.0', '0.0', '0.0']
+
+--------------------------------------------------------------------------------
+
